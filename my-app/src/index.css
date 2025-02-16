@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Samarkan';
+    src: url('/src/fonts/Saman.ttf');
+}
+
+@theme{
+    --font-Samarkan:Samarkan, "sans-serif"
+}
