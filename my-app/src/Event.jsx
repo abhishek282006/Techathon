@@ -13,7 +13,7 @@ const eventsData = [
 const Event = () => {
   return (
     <section
-      className="h-screen bg-no-repeat bg-center bg-fixed bg-cover"
+      className="h-screen bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${EventImg})` }}
     >
       <div className="h-screen relative flex flex-col items-center p-15">
@@ -28,8 +28,7 @@ const Event = () => {
               className="group relative h-[200px] w-[200px] rounded-lg transition duration-300 transform hover:[transform:perspective(1000px)_rotateY(10deg)]"
             >
               <div
-                className="relative z-10 flex flex-col items-center justify-center h-full w-full bg-white rounded-lg shadow-md p-6 transition-all duration-500
-                           group-hover:bg-gradient-to-r group-hover:from-blue-200 group-hover:to-blue-400"
+                className="relative z-10 flex flex-col items-center justify-center h-full w-full bg-white rounded-lg shadow-md p-6 transition-all duration-500 group-hover:bg-gradient-to-r group-hover:from-blue-200 group-hover:to-blue-400"
               >
                 <img
                   src={event.icon}

@@ -4,7 +4,6 @@ import Event from "./Event"
 
 function App() {
   return (
-    
     <>
         <Hero/>
         <Event/>

@@ -7,7 +7,7 @@ import logo from "./assets/img/logo.svg";
 const Hero = () => {
   return (
     <section
-      className="h-screen bg-no-repeat bg-center bg-fixed bg-cover"
+      className="h-screen bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${heroImg})` }}>
 
         <NavBar/>
@@ -19,9 +19,9 @@ const Hero = () => {
                 March 31, 2025
             </button>
                 <button className="flex items-center gap-2 px-6 py-3 bg-[#070D1C] text-white rounded-full border border-[#1E293B] shadow-lg hover:shadow-cyan-500/50 transition duration-300">
-                <FaDiscord className="text-white text-2xl" />
-                <span>Join Discord</span>
-            </button>
+                  <FaDiscord className="text-white text-2xl" />
+                  <span>Join Discord</span>
+                </button>
          </div>
          </div>
          <div className="absolute right-0 bottom-0 p-4">

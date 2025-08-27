@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-lg border-b bg-[#070D1C]/70 p-4">
+    <nav className="sticky top-0 z-20 backdrop-blur-lg border-b bg-[#070D1C]/70 p-4">
       <div className="container flex justify-between items-center mx-auto">
         {/* Logo & Title */}
         <div className="flex items-center flex-shrink-0">
